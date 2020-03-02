@@ -16,7 +16,7 @@ export class ArticleComponent implements OnInit {
   ngOnInit(): void {
     // il faut le faire dans la méthode  ngOnInit()
     this.http.get(this.api)
-      .subscribe( (res : Response) => {
+      .subscribe( (res : Response)  => {
         this.articles = res
       })
   }
