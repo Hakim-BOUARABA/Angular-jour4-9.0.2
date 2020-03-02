@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from "@angular/router";
 import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
  
 import { AppComponent } from './app.component';
 import { MenuComponent } from './commun/menu/menu.component';
@@ -33,7 +34,8 @@ import { PortfolioService } from "./service/portfolio.service";
       // n'importe quel url
       // il faut que le path du not-found => soit mis en DERNIER dans la déclaration des routes 
     ]), // attention sans / slash  au début
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     PortfolioService
