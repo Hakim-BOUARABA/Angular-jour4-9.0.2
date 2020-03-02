@@ -1,0 +1,37 @@
+=> mobile (React Native + Ionic ... Kotlin / Java / C#)
+
+=> notifications = 
+	
+programmation evénementielle
+quand il y a un event ?
+	quand la page souvre => 
+	quand je clique => 
+	quand je reçois un message =>
+	quand .... alors 
+js pur
+document.getElementById("").addEventListener("click", function(){})
+
+en jQuery => $().click(function(){})
+
+=> callback // programmation asynchrone 
+
+Nodejs => 
+
+const http = require("http")
+const serveur = http.createServer()
+
+server.on('request', function(){})
+
+Express
+
+const express = require('express')
+
+express.put("/", function(req, res){})
+
+async 
+await 
+
+Promise 
+
+
+notification => zone où tu va avoir l'info

@@ -1,0 +1,24 @@
+https://formation.webdevpro.net/nodejs/
+login : node
+mdp : javascript
+-------------------------------
+aller dans le dossier angular sur le bureau windows
+
+ng new jour4
+cd jour4
+npm i bootstrap
+
+modifier, via un editeur de texte, le fichier 
+angular.json
+"styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+],
+
+ng serve --open
+
+
+
+
+
+
